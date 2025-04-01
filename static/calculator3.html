@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Калькулятор 3</title>
+</head>
+<body>
+<h1>Калькулятор 3</h1>
+<form id="calculator3">
+    <div>
+        <label for="input1">Rc.h (ОМ):</label>
+        <input type="number" step="any" id="input1" required>
+    </div>
+    <div>
+        <label for="input2">Хс.h (OM):</label>
+        <input type="number" step="any" id="input2" required>
+    </div>
+    <div>
+        <label for="input3">Rc.min (ОМ):</label>
+        <input type="number" step="any" id="input3" required>
+    </div>
+    <div>
+        <label for="input4">Хс.min (OM):</label>
+        <input type="number" step="any" id="input4" required>
+    </div>
+    <button type="submit">Обчислити</button>
+</form>
+<p id="result">Результат: </p>
+
+<div class="vertical-center" id="home">
+    <button onclick="location.href='index.html'" type="button"> На головну </button>
+</div>
+  
+<script src="script.js"></script>
+</body>
+</html>
